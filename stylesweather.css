@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fad5b1;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.weather-container {
+    background-color: #dfe6f5;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 100px;
+    width: 60%;
+    text-align: center;
+    font-size: 20px;
+}
+.h1{
+    font-size: 40px;
+}
+
+.location h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.location p {
+    margin: 5px 0 20px;
+    color: #777;
+}
+
+.current-weather h2 {
+    margin: 0;
+    font-size: 48px;
+    color: #0048ff;
+}
+
+.current-weather p {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.forecast {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.forecast-day {
+    background-color: #fa7a12;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100px;
+}
+
+.forecast-day p {
+    margin: 5px 0;
+    color: #333;
+    font-size: 14px;
+}
+
+
